@@ -18,7 +18,11 @@ files for each pb element::
 
     python3 milestone.py -t pb myfile.xml
 
-The above command will name the output files with integers.
+Or if you have installed the module through pip, you can use::
+
+    python3 -m milestone -b pb myfile.xml
+
+The above commands will name the output files with integers.
 
 Now imagine that the <pb> elements have an attribute called 'n' that
 we want to use for the name of each output file.
@@ -41,4 +45,3 @@ Milestone class::
 To share ideas or improvements, please visit the github project at:
 
     https://github.com/zeth/milestone
-

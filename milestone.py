@@ -75,7 +75,7 @@ import argparse
 from collections import OrderedDict
 from lxml import etree
 
-__version__ = "0.1"
+__version__ = "0.2"
 
 CLOSING_TAG = "</%s>"
 OPENING_TAG = '<%s%s>'

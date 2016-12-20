@@ -5,8 +5,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-import milestone
-
 milestone_classifiers = [
     "Programming Language :: Python :: 3",
     "Intended Audience :: Developers",
@@ -23,7 +21,7 @@ with open("README.rst", "r") as fp:
 
 setup(name="milestone",
       description = 'Split an XML document by milestone element.',
-      version=milestone.__version__,
+      version=0.2,
       install_requires=['lxml'],
       author="Zeth",
       author_email="theology@gmail.com",
